@@ -1,6 +1,6 @@
 @font-face {
-  font-family: Monument;
-  src: url(GFX/PP\ Monument\ Extended\ -\ Free\ for\ Personal\ Use/PPMonumentExtended-BlackItalic.otf);
+  font-family: Aber;
+  src: url(GFX/abermono250324/AberMono-Bold.otf);
 }
 
 body {
@@ -17,10 +17,10 @@ body {
 ul li{
   float: left;
   text-align: center;
-  width: 320px;
+  width: 350px;
   text-transform: capitalize;
   list-style-type: none;
-  font-family: Monument;
+  font-family: Aber;
 }
 
 ul li a{
