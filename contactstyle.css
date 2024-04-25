@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Aber;
+    src: url(GFX/abermono250324/AberMono-Bold.otf);
+  }
+  
+  body {
+    background-color:black;
+  }
+
+  .contact {
+    font-family: Aber;
+  }
