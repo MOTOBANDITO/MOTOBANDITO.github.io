@@ -7,9 +7,40 @@
     background-color:black;
   }
 
-  .container {
+  .menu{
+    position: fixed;
+    text-align: center;
+    float: right;
+    border; 1px solid solid black;
+  }
+  
+  ul li{
+    float: left;
+    text-align: center;
+    width: 350px;
+    text-transform: capitalize;
+    list-style-type: none;
+    font-family: Aber;
+  }
+  
+  ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul li a:hover{
+    color: rgb(248, 48, 255);
+  }
+  
+  b{
+    color: rgb(248, 48, 255);
+    border-bottom: 2px solid rgb(248, 48, 255);
+    font-weight: normal;
+  }
+
+  .contactcontainer {
     left: 0;
-    line-height: 200px;
+    line-height: 50px;
     margin-top: -100px;
     position: absolute;
     text-align: center;
@@ -23,3 +54,4 @@
     text-align: center;
     color: white;
   }
+
