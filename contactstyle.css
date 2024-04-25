@@ -6,9 +6,13 @@
   body {
     background: url(photos/BG.png);
     background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
   
   .menu{
+    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -17,12 +21,8 @@
   }
   
   ul li{
-    float: left;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    text-transform: capitalize;
+    margin: 50px;
+    display: inline;
     list-style-type: none;
     font-family: Aber;
   }

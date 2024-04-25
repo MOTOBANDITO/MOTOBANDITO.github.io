@@ -3,12 +3,21 @@
   src: url(GFX/abermono250324/AberMono-Bold.otf);
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: url(photos/BG.png);
   background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .menu{
+  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -17,12 +26,8 @@ body {
 }
 
 ul li{
-  float: left;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
-  text-transform: capitalize;
+  margin: 50px;
+  display: inline;
   list-style-type: none;
   font-family: Aber;
 }
@@ -42,15 +47,15 @@ b{
   font-weight: normal;
 }
 
+img{
+  width: 100%;
+}
+
 .logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: -70px;
-  width: 80%;
-  height: 80%;
-  scale: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .contactcontainer {
