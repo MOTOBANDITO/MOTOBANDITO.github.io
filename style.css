@@ -5,21 +5,23 @@
 
 body {
   background: url(photos/BG.png);
-  background-position-x: 250px;
-  background-position-y: 62px;
+  background-position: center center;
 }
 
 .menu{
-  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   text-align: center;
-  float: right;
   border; 1px solid solid black;
 }
 
 ul li{
   float: left;
   text-align: center;
-  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
   text-transform: capitalize;
   list-style-type: none;
   font-family: Aber;
@@ -44,7 +46,11 @@ b{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  margin-top: auto;
+  margin-bottom: -70px;
+  width: 80%;
+  height: 80%;
+  scale: 1;
 }
 
 .contactcontainer {
