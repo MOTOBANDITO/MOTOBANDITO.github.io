@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Monument;
+  src: url(GFX/PP\ Monument\ Extended\ -\ Free\ for\ Personal\ Use/PPMonumentExtended-BlackItalic.otf);
+}
+
 body {
   background-color:black
 }
@@ -9,10 +14,11 @@ body {
 
 ul li{
   float: left;
-  width: 100px;
+  text-align: center;
+  width: 350px;
   text-transform: capitalize;
   list-style-type: none;
-  font-family:Arial, Helvetica, sans-serif
+  font-family: Monument;
 }
 
 ul li a{
